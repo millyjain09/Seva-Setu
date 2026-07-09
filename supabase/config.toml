@@ -1,0 +1,19 @@
+project_id = "khnonltlzeslfyosvunj"
+
+[functions.chat]
+verify_jwt = false
+
+[functions.analyze-report]
+verify_jwt = false
+
+[functions.check-eligibility]
+verify_jwt = false
+
+[functions.send-push]
+verify_jwt = false
+
+[functions.daily-health-reminders]
+verify_jwt = false
+
+[functions.text-to-speech]
+verify_jwt = false

@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "ਸੇਵਾਸੇਤੁ",
+    "tagline": "ਪੇਂਡੂ ਸਿਹਤ ਨੈਵੀਗੇਟਰ",
+    "save": "ਤਬਦੀਲੀਆਂ ਸੰਭਾਲੋ",
+    "signOut": "ਸਾਈਨ ਆਊਟ",
+    "viewAll": "ਸਾਰੇ ਵੇਖੋ",
+    "loading": "ਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "language": "ਭਾਸ਼ਾ",
+    "cancel": "ਰੱਦ ਕਰੋ",
+    "send": "ਭੇਜੋ",
+    "upload": "ਅਪਲੋਡ",
+    "search": "ਖੋਜੋ"
+  },
+  "nav": {
+    "home": "ਘਰ",
+    "voiceAsk": "ਆਵਾਜ਼ ਸਹਾਇਕ",
+    "healthVault": "ਸਿਹਤ ਵਾਲਟ",
+    "schemes": "ਸਰਕਾਰੀ ਯੋਜਨਾਵਾਂ",
+    "emergency": "ਐਮਰਜੈਂਸੀ",
+    "profile": "ਮੇਰੀ ਪ੍ਰੋਫ਼ਾਈਲ",
+    "adminPanel": "ਐਡਮਿਨ ਪੈਨਲ",
+    "superAdmin": "ਸੁਪਰ ਐਡਮਿਨ",
+    "menu": "ਮੀਨੂ",
+    "admin": "ਐਡਮਿਨ"
+  },
+  "header": {
+    "dashboard": "ਡੈਸ਼ਬੋਰਡ",
+    "aiAssistant": "AI ਸਿਹਤ ਸਹਾਇਕ"
+  },
+  "dash": {
+    "greeting": {
+      "morning": "ਸ਼ੁਭ ਸਵੇਰ",
+      "afternoon": "ਨਮਸਕਾਰ",
+      "evening": "ਸ਼ੁਭ ਸ਼ਾਮ"
+    },
+    "subtitle": "ਤੁਹਾਡਾ ਨਿੱਜੀ ਸਿਹਤ ਨੈਵੀਗੇਟਰ ਤਿਆਰ ਹੈ",
+    "stats": {
+      "reports": "ਰਿਪੋਰਟਾਂ",
+      "schemes": "ਯੋਜਨਾਵਾਂ",
+      "languages": "ਭਾਸ਼ਾਵਾਂ"
+    },
+    "tip": {
+      "title": "ਰੋਜ਼ਾਨਾ ਸਿਹਤ ਸਲਾਹ"
+    },
+    "quickActions": "ਤੁਰੰਤ ਕਾਰਵਾਈਆਂ",
+    "action": {
+      "ai": "AI ਡਾਕਟਰ ਨਾਲ ਗੱਲ ਕਰੋ",
+      "aiDesc": "ਆਪਣੀ ਭਾਸ਼ਾ ਵਿੱਚ ਆਵਾਜ਼ ਜਾਂ ਟੈਕਸਟ",
+      "upload": "ਰਿਪੋਰਟ ਅਪਲੋਡ ਕਰੋ",
+      "uploadDesc": "AI-ਸੰਚਾਲਿਤ ਸਿਹਤ ਵਿਸ਼ਲੇਸ਼ਣ",
+      "schemes": "ਸਰਕਾਰੀ ਯੋਜਨਾਵਾਂ ਲੱਭੋ",
+      "schemesDesc": "ਤੁਰੰਤ ਯੋਗਤਾ ਜਾਂਚੋ",
+      "sos": "ਐਮਰਜੈਂਸੀ SOS",
+      "sosDesc": "ਤੁਰੰਤ ਹੈਲਪਲਾਈਨ 'ਤੇ ਕਾਲ ਕਰੋ"
+    },
+    "summary": "ਸਿਹਤ ਸਾਰਾਂਸ਼",
+    "bpTrend": "ਬਲੱਡ ਪ੍ਰੈਸ਼ਰ ਰੁਝਾਨ (ਨਮੂਨਾ)",
+    "recentReports": "ਹਾਲੀਆ ਰਿਪੋਰਟਾਂ",
+    "noReports": "ਅਜੇ ਕੋਈ ਰਿਪੋਰਟ ਨਹੀਂ",
+    "uploadFirst": "ਪਹਿਲੀ ਰਿਪੋਰਟ ਅਪਲੋਡ ਕਰੋ →",
+    "govtSchemes": "ਸਰਕਾਰੀ ਸਿਹਤ ਯੋਜਨਾਵਾਂ",
+    "loadingSchemes": "ਯੋਜਨਾਵਾਂ ਲੋਡ ਹੋ ਰਹੀਆਂ ਹਨ...",
+    "emergencyCta": "ਐਮਰਜੈਂਸੀ? 112 'ਤੇ ਕਾਲ ਕਰੋ",
+    "emergencyDesc": "ਸਾਰੀਆਂ ਐਮਰਜੈਂਸੀ ਹੈਲਪਲਾਈਨਾਂ ਲਈ ਟੈਪ ਕਰੋ"
+  },
+  "voice": {
+    "title": "ਕੋਈ ਵੀ ਸਿਹਤ ਸਵਾਲ ਪੁੱਛੋ",
+    "subtitle": "ਬੋਲਣ ਲਈ ਮਾਈਕ ਟੈਪ ਕਰੋ ਜਾਂ ਹੇਠਾਂ ਸਵਾਲ ਲਿਖੋ।",
+    "placeholder": "ਆਪਣਾ ਸਿਹਤ ਸਵਾਲ ਲਿਖੋ...",
+    "listen": "ਸੁਣੋ",
+    "notSupported": "ਆਵਾਜ਼ ਪਛਾਣ ਸਮਰਥਿਤ ਨਹੀਂ। Chrome ਜਾਂ Edge ਵਰਤੋ।",
+    "headerSubtitle": "ਬਹੁਭਾਸ਼ੀ ਆਵਾਜ਼ ਅਤੇ ਟੈਕਸਟ ਸਹਾਇਤਾ"
+  },
+  "profile": {
+    "title": "ਮੇਰੀ ਪ੍ਰੋਫ਼ਾਈਲ",
+    "subtitle": "ਆਪਣਾ ਖਾਤਾ ਅਤੇ ਤਰਜੀਹਾਂ ਪ੍ਰਬੰਧਿਤ ਕਰੋ",
+    "fullName": "ਪੂਰਾ ਨਾਮ",
+    "fullNamePh": "ਆਪਣਾ ਪੂਰਾ ਨਾਮ ਦਰਜ ਕਰੋ",
+    "preferredLang": "ਪਸੰਦੀਦਾ ਭਾਸ਼ਾ",
+    "pushTitle": "ਪੁਸ਼ ਸੂਚਨਾਵਾਂ",
+    "pushOn": "ਸਿਹਤ ਯਾਦ-ਪੱਤਰ ਮਿਲ ਰਹੇ ਹਨ",
+    "pushOff": "ਐਪ ਬੰਦ ਹੋਣ 'ਤੇ ਵੀ ਚੇਤਾਵਨੀਆਂ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "pushBlocked": "ਬ੍ਰਾਊਜ਼ਰ ਸੈਟਿੰਗਾਂ ਵਿੱਚ ਬਲਾਕ ਕੀਤਾ",
+    "saved": "ਪ੍ਰੋਫ਼ਾਈਲ ਅਪਡੇਟ ਕੀਤੀ",
+    "savedDesc": "ਤੁਹਾਡੀਆਂ ਤਬਦੀਲੀਆਂ ਸੰਭਾਲ ਲਈਆਂ ਗਈਆਂ ਹਨ।"
+  },
+  "auth": {
+    "signIn": "ਸਾਈਨ ਇਨ",
+    "signUp": "ਸਾਈਨ ਅੱਪ",
+    "createAccount": "ਖਾਤਾ ਬਣਾਓ",
+    "continueGoogle": "Google ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
+    "orEmail": "ਜਾਂ ਈਮੇਲ ਨਾਲ ਜਾਰੀ ਰੱਖੋ",
+    "email": "ਈਮੇਲ",
+    "password": "ਪਾਸਵਰਡ",
+    "forgot": "ਪਾਸਵਰਡ ਭੁੱਲ ਗਏ?",
+    "tagline": "ਪੇਂਡੂ ਸਿਹਤ ਨੂੰ ਸਸ਼ਕਤ ਕਰਨਾ, ਇੱਕ ਕਲਿੱਕ ਨਾਲ",
+    "aiBadge": "AI-ਸੰਚਾਲਿਤ ਸਿਹਤ ਨੈਵੀਗੇਟਰ"
+  },
+  "notif": {
+    "newScheme": {
+      "title": "ਨਵੀਂ ਸਰਕਾਰੀ ਯੋਜਨਾ ਉਪਲਬਧ"
+    },
+    "checkNow": "ਹੁਣੇ ਵੇਖੋ",
+    "langChanged": "ਭਾਸ਼ਾ ਬਦਲ ਗਈ"
+  },
+  "vault": {
+    "title": "ਸਿਹਤ ਵਾਲਟ",
+    "subtitle": "ਮੈਡੀਕਲ ਰਿਪੋਰਟ ਅਪਲੋਡ ਕਰੋ ਅਤੇ AI ਵਿਸ਼ਲੇਸ਼ਣ ਪ੍ਰਾਪਤ ਕਰੋ",
+    "upload": "ਰਿਪੋਰਟ ਅਪਲੋਡ ਕਰੋ",
+    "uploading": "ਅਪਲੋਡ ਹੋ ਰਿਹਾ ਹੈ...",
+    "hint": "PDF, JPG, PNG",
+    "maxSize": "ਵੱਧ ਤੋਂ ਵੱਧ 20MB",
+    "analyzing": "AI ਵਿਸ਼ਲੇਸ਼ਣ...",
+    "analyzingDesc": "ਬਾਇਓਮਾਰਕਰ ਕੱਢ ਰਿਹਾ ਹੈ",
+    "aiResults": "AI ਵਿਸ਼ਲੇਸ਼ਣ ਨਤੀਜੇ",
+    "emptyTitle": "AI ਵਿਸ਼ਲੇਸ਼ਣ ਵੇਖਣ ਲਈ ਰਿਪੋਰਟ ਅਪਲੋਡ ਕਰੋ",
+    "emptyDesc": "ਤੁਹਾਡੀਆਂ ਰਿਪੋਰਟਾਂ ਸੁਰੱਖਿਅਤ ਹਨ",
+    "reportType": "ਰਿਪੋਰਟ ਕਿਸਮ",
+    "summary": "ਸਾਰ",
+    "biomarkers": "ਬਾਇਓਮਾਰਕਰ",
+    "recommendations": "ਸਿਫਾਰਸ਼ਾਂ",
+    "riskHigh": "ਉੱਚ ਜੋਖਮ",
+    "riskMedium": "ਦਰਮਿਆਨਾ",
+    "riskNormal": "ਸਧਾਰਨ",
+    "pastReports": "ਪਿਛਲੀਆਂ ਰਿਪੋਰਟਾਂ",
+    "noReports": "ਅਜੇ ਤੱਕ ਕੋਈ ਰਿਪੋਰਟ ਨਹੀਂ",
+    "viewing": "ਪਿਛਲੀ ਰਿਪੋਰਟ ਵੇਖ ਰਹੇ ਹੋ",
+    "close": "ਬੰਦ ਕਰੋ",
+    "errLarge": "ਫਾਈਲ ਬਹੁਤ ਵੱਡੀ",
+    "errLargeDesc": "ਵੱਧ ਤੋਂ ਵੱਧ 20MB.",
+    "errType": "ਅਸਮਰਥਿਤ ਕਿਸਮ",
+    "errTypeDesc": "ਸਿਰਫ PDF, JPG, PNG.",
+    "errSession": "ਸੈਸ਼ਨ ਖਤਮ",
+    "errSessionDesc": "ਮੁੜ ਸਾਈਨ ਇਨ ਕਰੋ.",
+    "success": "ਰਿਪੋਰਟ ਵਿਸ਼ਲੇਸ਼ਿਤ",
+    "successDesc": "ਸਫਲਤਾਪੂਰਵਕ ਵਿਸ਼ਲੇਸ਼ਿਤ.",
+    "error": "ਗਲਤੀ",
+    "openFile": "ਫਾਈਲ ਖੋਲ੍ਹੋ",
+    "download": "PDF ਡਾਊਨਲੋਡ",
+    "patient": "ਮਰੀਜ਼"
+  }
+}

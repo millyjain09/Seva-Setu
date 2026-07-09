@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "सेवासेतु",
+    "tagline": "ग्रामीण आरोग्य नॅव्हिगेटर",
+    "save": "बदल जतन करा",
+    "signOut": "साइन आउट",
+    "viewAll": "सर्व पहा",
+    "loading": "लोड होत आहे...",
+    "language": "भाषा",
+    "cancel": "रद्द करा",
+    "send": "पाठवा",
+    "upload": "अपलोड",
+    "search": "शोधा"
+  },
+  "nav": {
+    "home": "होम",
+    "voiceAsk": "व्हॉइस सहाय्यक",
+    "healthVault": "आरोग्य व्हॉल्ट",
+    "schemes": "सरकारी योजना",
+    "emergency": "आणीबाणी",
+    "profile": "माझी प्रोफाइल",
+    "adminPanel": "ॲडमिन पॅनेल",
+    "superAdmin": "सुपर ॲडमिन",
+    "menu": "मेनू",
+    "admin": "ॲडमिन"
+  },
+  "header": {
+    "dashboard": "डॅशबोर्ड",
+    "aiAssistant": "AI आरोग्य सहाय्यक"
+  },
+  "dash": {
+    "greeting": {
+      "morning": "सुप्रभात",
+      "afternoon": "शुभ दुपार",
+      "evening": "शुभ संध्याकाळ"
+    },
+    "subtitle": "तुमचा वैयक्तिक आरोग्य नॅव्हिगेटर तयार आहे",
+    "stats": {
+      "reports": "अहवाल",
+      "schemes": "योजना",
+      "languages": "भाषा"
+    },
+    "tip": {
+      "title": "दैनंदिन आरोग्य टिप"
+    },
+    "quickActions": "त्वरित कृती",
+    "action": {
+      "ai": "AI डॉक्टरांशी बोला",
+      "aiDesc": "तुमच्या भाषेत आवाज किंवा मजकूर",
+      "upload": "अहवाल अपलोड करा",
+      "uploadDesc": "AI-संचालित आरोग्य विश्लेषण",
+      "schemes": "सरकारी योजना शोधा",
+      "schemesDesc": "त्वरित पात्रता तपासा",
+      "sos": "आणीबाणी SOS",
+      "sosDesc": "त्वरित हेल्पलाइनला कॉल करा"
+    },
+    "summary": "आरोग्य सारांश",
+    "bpTrend": "रक्तदाब प्रवृत्ती (नमुना)",
+    "recentReports": "अलीकडील अहवाल",
+    "noReports": "अद्याप कोणताही अहवाल नाही",
+    "uploadFirst": "पहिला अहवाल अपलोड करा →",
+    "govtSchemes": "सरकारी आरोग्य योजना",
+    "loadingSchemes": "योजना लोड होत आहेत...",
+    "emergencyCta": "आणीबाणी? 112 वर कॉल करा",
+    "emergencyDesc": "सर्व आणीबाणी हेल्पलाइनसाठी टॅप करा"
+  },
+  "voice": {
+    "title": "कोणताही आरोग्य प्रश्न विचारा",
+    "subtitle": "बोलण्यासाठी माइक टॅप करा किंवा खाली प्रश्न टाइप करा.",
+    "placeholder": "तुमचा आरोग्य प्रश्न टाइप करा...",
+    "listen": "ऐका",
+    "notSupported": "वाक् ओळख समर्थित नाही. Chrome किंवा Edge वापरा.",
+    "headerSubtitle": "बहुभाषिक आवाज आणि मजकूर समर्थन"
+  },
+  "profile": {
+    "title": "माझी प्रोफाइल",
+    "subtitle": "तुमचे खाते आणि प्राधान्ये व्यवस्थापित करा",
+    "fullName": "पूर्ण नाव",
+    "fullNamePh": "तुमचे पूर्ण नाव टाका",
+    "preferredLang": "पसंतीची भाषा",
+    "pushTitle": "पुश सूचना",
+    "pushOn": "आरोग्य स्मरणपत्रे मिळत आहेत",
+    "pushOff": "अॅप बंद असतानाही सूचना मिळवा",
+    "pushBlocked": "ब्राउझर सेटिंग्जमध्ये ब्लॉक",
+    "saved": "प्रोफाइल अद्यतनित",
+    "savedDesc": "तुमचे बदल जतन झाले आहेत."
+  },
+  "auth": {
+    "signIn": "साइन इन",
+    "signUp": "साइन अप",
+    "createAccount": "खाते तयार करा",
+    "continueGoogle": "Google सह सुरू ठेवा",
+    "orEmail": "किंवा ईमेलसह सुरू ठेवा",
+    "email": "ईमेल",
+    "password": "पासवर्ड",
+    "forgot": "पासवर्ड विसरलात?",
+    "tagline": "ग्रामीण आरोग्याचे सक्षमीकरण, एका क्लिकवर",
+    "aiBadge": "AI-संचालित आरोग्य नॅव्हिगेटर"
+  },
+  "notif": {
+    "newScheme": {
+      "title": "नवीन सरकारी योजना उपलब्ध"
+    },
+    "checkNow": "आता पहा",
+    "langChanged": "भाषा बदलली"
+  },
+  "vault": {
+    "title": "हेल्थ व्हॉल्ट",
+    "subtitle": "वैद्यकीय अहवाल अपलोड करा आणि AI विश्लेषण मिळवा",
+    "upload": "अहवाल अपलोड करा",
+    "uploading": "अपलोड होत आहे...",
+    "hint": "PDF, JPG, PNG",
+    "maxSize": "कमाल 20MB",
+    "analyzing": "AI विश्लेषण सुरू...",
+    "analyzingDesc": "बायोमार्कर काढत आहे",
+    "aiResults": "AI विश्लेषण निकाल",
+    "emptyTitle": "AI विश्लेषण पाहण्यासाठी अहवाल अपलोड करा",
+    "emptyDesc": "तुमचे अहवाल सुरक्षित",
+    "reportType": "अहवाल प्रकार",
+    "summary": "सारांश",
+    "biomarkers": "बायोमार्कर",
+    "recommendations": "शिफारसी",
+    "riskHigh": "उच्च धोका",
+    "riskMedium": "मध्यम",
+    "riskNormal": "सामान्य",
+    "pastReports": "मागील अहवाल",
+    "noReports": "अद्याप अहवाल नाहीत",
+    "viewing": "मागील अहवाल पाहत आहात",
+    "close": "बंद करा",
+    "errLarge": "फाइल खूप मोठी",
+    "errLargeDesc": "कमाल 20MB.",
+    "errType": "असमर्थित प्रकार",
+    "errTypeDesc": "फक्त PDF, JPG, PNG.",
+    "errSession": "सत्र संपले",
+    "errSessionDesc": "पुन्हा साइन इन करा.",
+    "success": "अहवाल विश्लेषित",
+    "successDesc": "यशस्वीरित्या विश्लेषित.",
+    "error": "त्रुटी",
+    "openFile": "फाइल उघडा",
+    "download": "PDF डाउनलोड",
+    "patient": "रुग्ण"
+  }
+}

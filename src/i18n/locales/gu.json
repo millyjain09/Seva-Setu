@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "સેવાસેતુ",
+    "tagline": "ગ્રામીણ આરોગ્ય માર્ગદર્શક",
+    "save": "ફેરફારો સાચવો",
+    "signOut": "સાઇન આઉટ",
+    "viewAll": "બધું જુઓ",
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "language": "ભાષા",
+    "cancel": "રદ કરો",
+    "send": "મોકલો",
+    "upload": "અપલોડ",
+    "search": "શોધો"
+  },
+  "nav": {
+    "home": "હોમ",
+    "voiceAsk": "વોઇસ સહાયક",
+    "healthVault": "આરોગ્ય વોલ્ટ",
+    "schemes": "સરકારી યોજનાઓ",
+    "emergency": "કટોકટી",
+    "profile": "મારી પ્રોફાઇલ",
+    "adminPanel": "એડમિન પેનલ",
+    "superAdmin": "સુપર એડમિન",
+    "menu": "મેનુ",
+    "admin": "એડમિન"
+  },
+  "header": {
+    "dashboard": "ડેશબોર્ડ",
+    "aiAssistant": "AI આરોગ્ય સહાયક"
+  },
+  "dash": {
+    "greeting": {
+      "morning": "સુપ્રભાત",
+      "afternoon": "શુભ બપોર",
+      "evening": "શુભ સાંજ"
+    },
+    "subtitle": "તમારો વ્યક્તિગત આરોગ્ય સહાયક તૈયાર છે",
+    "stats": {
+      "reports": "રિપોર્ટ્સ",
+      "schemes": "યોજનાઓ",
+      "languages": "ભાષાઓ"
+    },
+    "tip": {
+      "title": "દૈનિક આરોગ્ય ટિપ"
+    },
+    "quickActions": "ઝડપી ક્રિયાઓ",
+    "action": {
+      "ai": "AI ડૉક્ટર સાથે વાત કરો",
+      "aiDesc": "તમારી ભાષામાં વોઇસ કે ટેક્સ્ટ",
+      "upload": "રિપોર્ટ અપલોડ કરો",
+      "uploadDesc": "AI-સંચાલિત આરોગ્ય વિશ્લેષણ",
+      "schemes": "સરકારી યોજનાઓ શોધો",
+      "schemesDesc": "તુરંત પાત્રતા તપાસો",
+      "sos": "કટોકટી SOS",
+      "sosDesc": "તુરંત હેલ્પલાઇન પર કૉલ કરો"
+    },
+    "summary": "આરોગ્ય સારાંશ",
+    "bpTrend": "બ્લડ પ્રેશર વલણ (નમૂનો)",
+    "recentReports": "તાજેતરના રિપોર્ટ્સ",
+    "noReports": "હજુ સુધી કોઈ રિપોર્ટ નથી",
+    "uploadFirst": "પ્રથમ રિપોર્ટ અપલોડ કરો →",
+    "govtSchemes": "સરકારી આરોગ્ય યોજનાઓ",
+    "loadingSchemes": "યોજનાઓ લોડ થઈ રહી છે...",
+    "emergencyCta": "કટોકટી? 112 પર કૉલ કરો",
+    "emergencyDesc": "તમામ કટોકટી હેલ્પલાઇન માટે ટેપ કરો"
+  },
+  "voice": {
+    "title": "કોઈપણ આરોગ્ય પ્રશ્ન પૂછો",
+    "subtitle": "બોલવા માટે માઇક ટેપ કરો અથવા નીચે પ્રશ્ન ટાઇપ કરો.",
+    "placeholder": "તમારો આરોગ્ય પ્રશ્ન ટાઇપ કરો...",
+    "listen": "સાંભળો",
+    "notSupported": "સ્પીચ રેકગ્નિશન સપોર્ટેડ નથી. Chrome અથવા Edge વાપરો.",
+    "headerSubtitle": "બહુભાષી વોઇસ અને ટેક્સ્ટ સપોર્ટ"
+  },
+  "profile": {
+    "title": "મારી પ્રોફાઇલ",
+    "subtitle": "તમારું એકાઉન્ટ અને પસંદગીઓ સંચાલિત કરો",
+    "fullName": "પૂરું નામ",
+    "fullNamePh": "તમારું પૂરું નામ દાખલ કરો",
+    "preferredLang": "પસંદગીની ભાષા",
+    "pushTitle": "પુશ સૂચનાઓ",
+    "pushOn": "આરોગ્ય રિમાઇન્ડર્સ મળી રહ્યા છે",
+    "pushOff": "એપ બંધ હોય ત્યારે પણ એલર્ટ મેળવો",
+    "pushBlocked": "બ્રાઉઝર સેટિંગ્સમાં બ્લોક",
+    "saved": "પ્રોફાઇલ અપડેટ થયું",
+    "savedDesc": "તમારા ફેરફારો સાચવાયા છે."
+  },
+  "auth": {
+    "signIn": "સાઇન ઇન",
+    "signUp": "સાઇન અપ",
+    "createAccount": "એકાઉન્ટ બનાવો",
+    "continueGoogle": "Google સાથે ચાલુ રાખો",
+    "orEmail": "અથવા ઇમેઇલ સાથે ચાલુ રાખો",
+    "email": "ઇમેઇલ",
+    "password": "પાસવર્ડ",
+    "forgot": "પાસવર્ડ ભૂલી ગયા?",
+    "tagline": "ગ્રામીણ આરોગ્યને સશક્ત બનાવવું, એક ક્લિકમાં",
+    "aiBadge": "AI-સંચાલિત આરોગ્ય માર્ગદર્શક"
+  },
+  "notif": {
+    "newScheme": {
+      "title": "નવી સરકારી યોજના ઉપલબ્ધ"
+    },
+    "checkNow": "હવે જુઓ",
+    "langChanged": "ભાષા બદલાઈ"
+  },
+  "vault": {
+    "title": "હેલ્થ વોલ્ટ",
+    "subtitle": "મેડિકલ રિપોર્ટ અપલોડ કરો અને AI વિશ્લેષણ મેળવો",
+    "upload": "રિપોર્ટ અપલોડ કરો",
+    "uploading": "અપલોડ થઈ રહ્યું છે...",
+    "hint": "PDF, JPG, PNG",
+    "maxSize": "મહત્તમ 20MB",
+    "analyzing": "AI વિશ્લેષણ...",
+    "analyzingDesc": "બાયોમાર્કર કાઢી રહ્યું છે",
+    "aiResults": "AI વિશ્લેષણ પરિણામો",
+    "emptyTitle": "AI વિશ્લેષણ જોવા માટે રિપોર્ટ અપલોડ કરો",
+    "emptyDesc": "તમારા રિપોર્ટ સુરક્ષિત છે",
+    "reportType": "રિપોર્ટ પ્રકાર",
+    "summary": "સારાંશ",
+    "biomarkers": "બાયોમાર્કર",
+    "recommendations": "ભલામણો",
+    "riskHigh": "ઉચ્ચ જોખમ",
+    "riskMedium": "મધ્યમ",
+    "riskNormal": "સામાન્ય",
+    "pastReports": "અગાઉના રિપોર્ટ",
+    "noReports": "હજુ સુધી રિપોર્ટ નથી",
+    "viewing": "અગાઉનો રિપોર્ટ જોઈ રહ્યા છો",
+    "close": "બંધ કરો",
+    "errLarge": "ફાઇલ બહુ મોટી",
+    "errLargeDesc": "મહત્તમ 20MB.",
+    "errType": "અસમર્થિત પ્રકાર",
+    "errTypeDesc": "ફક્ત PDF, JPG, PNG.",
+    "errSession": "સત્ર સમાપ્ત",
+    "errSessionDesc": "ફરી સાઇન ઇન કરો.",
+    "success": "રિપોર્ટ વિશ્લેષિત",
+    "successDesc": "સફળતાપૂર્વક વિશ્લેષિત.",
+    "error": "ભૂલ",
+    "openFile": "ફાઇલ ખોલો",
+    "download": "PDF ડાઉનલોડ",
+    "patient": "દર્દી"
+  }
+}

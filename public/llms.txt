@@ -1,0 +1,18 @@
+# SevaSetu
+
+> AI-powered rural health navigator for India — voice health assistant, government scheme finder, AI health-report analysis, and one-tap emergency SOS, in 10+ Indian languages.
+
+SevaSetu helps users in rural and underserved areas access trustworthy healthcare guidance, discover government health schemes they qualify for, securely store and understand medical reports, and reach emergency services quickly. All AI features are powered by Google Gemini via the Lovable AI Gateway.
+
+## Pages
+
+- [Home](/): Personal health dashboard and quick access to every module.
+- [Voice Hub](/voice-hub): Multilingual AI voice assistant for health questions.
+- [Health Vault](/health-vault): Upload medical reports and get AI summaries with risk levels.
+- [Government Schemes](/schemes): Browse and check eligibility for central and state health schemes (PM-JAY, PMJJBY, JSY, etc.).
+- [Emergency SOS](/emergency): One-tap dialer for India's 112 emergency number.
+
+## Optional
+
+- [Sign in / Sign up](/auth): Account creation with mandatory OTP verification.
+- [Profile](/profile): Edit name, preferred language, and notification settings (auth required).

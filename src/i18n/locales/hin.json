@@ -1,0 +1,143 @@
+{
+  "common": {
+    "appName": "SevaSetu",
+    "tagline": "Rural Health Navigator",
+    "save": "Save Changes",
+    "signOut": "Sign Out",
+    "viewAll": "View All",
+    "loading": "Loading...",
+    "language": "Language",
+    "cancel": "Cancel",
+    "send": "Send",
+    "upload": "Upload",
+    "search": "Search"
+  },
+  "nav": {
+    "home": "Home",
+    "voiceAsk": "Voice Ask",
+    "healthVault": "Health Vault",
+    "schemes": "Govt Schemes",
+    "emergency": "Emergency",
+    "profile": "My Profile",
+    "adminPanel": "Admin Panel",
+    "superAdmin": "Super Admin",
+    "menu": "Menu",
+    "admin": "Admin"
+  },
+  "header": {
+    "dashboard": "Dashboard",
+    "aiAssistant": "AI Health Assistant"
+  },
+  "dash": {
+    "greeting": {
+      "morning": "Good Morning",
+      "afternoon": "Good Afternoon",
+      "evening": "Good Evening"
+    },
+    "subtitle": "Aapka personal health navigator ready hai",
+    "stats": {
+      "reports": "Reports",
+      "schemes": "Schemes",
+      "languages": "Languages"
+    },
+    "tip": {
+      "title": "Daily Health Tip"
+    },
+    "quickActions": "Quick Actions",
+    "action": {
+      "ai": "Talk to AI Doctor",
+      "aiDesc": "Voice or text in your language",
+      "upload": "Upload Report",
+      "uploadDesc": "AI-powered health analysis",
+      "schemes": "Find Govt Schemes",
+      "schemesDesc": "Check eligibility instantly",
+      "sos": "Emergency SOS",
+      "sosDesc": "Call helplines instantly"
+    },
+    "summary": "Health Summary",
+    "bpTrend": "Blood Pressure Trend (sample)",
+    "recentReports": "Recent Reports",
+    "noReports": "No reports yet",
+    "uploadFirst": "Upload first report →",
+    "govtSchemes": "Government Health Schemes",
+    "loadingSchemes": "Loading schemes...",
+    "emergencyCta": "Emergency? Call 112",
+    "emergencyDesc": "Tap for all emergency helplines"
+  },
+  "voice": {
+    "title": "Ask any health question",
+    "subtitle": "Mic tap karein bolne ke liye ya neeche question type karein.",
+    "placeholder": "Apna health question type karein...",
+    "listen": "Listen",
+    "notSupported": "Speech recognition supported nahi hai. Chrome ya Edge use karein.",
+    "headerSubtitle": "Multilingual voice & text support"
+  },
+  "profile": {
+    "title": "My Profile",
+    "subtitle": "Apna account aur preferences manage karein",
+    "fullName": "Full Name",
+    "fullNamePh": "Apna full name enter karein",
+    "preferredLang": "Preferred Language",
+    "pushTitle": "Push Notifications",
+    "pushOn": "Health reminders mil rahe hain",
+    "pushOff": "App close hone par bhi alerts paayein",
+    "pushBlocked": "Blocked in browser settings",
+    "saved": "Profile updated",
+    "savedDesc": "Aapke changes save ho gaye."
+  },
+  "auth": {
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "createAccount": "Create Account",
+    "continueGoogle": "Continue with Google",
+    "orEmail": "or continue with email",
+    "email": "Email",
+    "password": "Password",
+    "forgot": "Forgot password?",
+    "tagline": "Empowering rural health, one click at a time",
+    "aiBadge": "AI-Powered Health Navigator"
+  },
+  "notif": {
+    "newScheme": {
+      "title": "Nayi government scheme available"
+    },
+    "checkNow": "Check now",
+    "langChanged": "Language change ho gayi"
+  },
+  "vault": {
+    "title": "Health Vault",
+    "subtitle": "Upload medical reports and get AI-powered insights",
+    "upload": "Upload Report",
+    "uploading": "Uploading...",
+    "hint": "PDF, JPG, PNG — drag & drop or tap",
+    "maxSize": "Max 20MB per file",
+    "analyzing": "Analyzing with AI...",
+    "analyzingDesc": "Extracting biomarkers & generating insights",
+    "aiResults": "AI Analysis Results",
+    "emptyTitle": "Upload a report to see AI analysis",
+    "emptyDesc": "Your reports are encrypted and private",
+    "reportType": "Report Type",
+    "summary": "Summary",
+    "biomarkers": "Biomarkers",
+    "recommendations": "Recommendations",
+    "riskHigh": "High Risk",
+    "riskMedium": "Medium",
+    "riskNormal": "Normal",
+    "pastReports": "Past Reports",
+    "noReports": "No reports uploaded yet",
+    "viewing": "Viewing past report",
+    "close": "Close",
+    "errLarge": "File too large",
+    "errLargeDesc": "Maximum size is 20MB.",
+    "errType": "Unsupported file type",
+    "errTypeDesc": "Only PDF, JPG, and PNG are allowed.",
+    "errSession": "Session expired",
+    "errSessionDesc": "Please sign in again.",
+    "success": "Report analyzed",
+    "successDesc": "Your report has been analyzed.",
+    "error": "Error",
+    "openFile": "Open file",
+    "download": "Download PDF",
+    "patient": "Patient"
+  }
+}

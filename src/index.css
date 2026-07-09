@@ -1,0 +1,244 @@
+/* Plus Jakarta Sans loaded via @fontsource-variable with font-display: swap */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 120 20% 98%;
+    --foreground: 150 10% 10%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 150 10% 10%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 150 10% 10%;
+
+    --primary: 122 46% 33%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 199 97% 41%;
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 38 100% 50%;
+    --accent-foreground: 0 0% 10%;
+
+    --muted: 120 10% 95%;
+    --muted-foreground: 120 5% 40%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 120 10% 90%;
+    --input: 120 10% 88%;
+    --ring: 122 46% 33%;
+
+    --radius: 0.75rem;
+
+    --sidebar-background: 120 15% 97%;
+    --sidebar-foreground: 150 10% 15%;
+    --sidebar-primary: 122 46% 33%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 120 15% 93%;
+    --sidebar-accent-foreground: 150 10% 15%;
+    --sidebar-border: 120 10% 90%;
+    --sidebar-ring: 122 46% 33%;
+
+    --glass-bg: 120 20% 99% / 0.72;
+    --glass-border: 120 10% 90% / 0.5;
+    --glow-primary: 122 46% 33% / 0.35;
+    --glow-secondary: 199 97% 41% / 0.25;
+    --glow-accent: 38 100% 50% / 0.3;
+  }
+
+  .dark {
+    --background: 200 15% 8%;
+    --foreground: 0 0% 95%;
+
+    --card: 200 15% 11%;
+    --card-foreground: 0 0% 95%;
+
+    --popover: 200 15% 11%;
+    --popover-foreground: 0 0% 95%;
+
+    --primary: 122 46% 45%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 199 80% 50%;
+    --secondary-foreground: 0 0% 100%;
+
+    --accent: 38 100% 55%;
+    --accent-foreground: 0 0% 5%;
+
+    --muted: 200 10% 15%;
+    --muted-foreground: 200 5% 55%;
+
+    --destructive: 0 62% 40%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 200 10% 18%;
+    --input: 200 10% 18%;
+    --ring: 122 46% 45%;
+
+    --sidebar-background: 200 15% 6%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 122 46% 45%;
+    --sidebar-primary-foreground: 0 0% 100%;
+    --sidebar-accent: 200 10% 12%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 200 10% 15%;
+    --sidebar-ring: 122 46% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html, body {
+    @apply bg-background text-foreground font-sans antialiased text-base;
+    overflow-x: hidden;
+    max-width: 100vw;
+  }
+
+  /* Prevent long words / URLs from causing horizontal scroll */
+  p, h1, h2, h3, h4, h5, h6, span, a, li {
+    overflow-wrap: anywhere;
+  }
+
+  /* Global focus-visible for accessibility */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+}
+
+@layer utilities {
+  /* ── Glass morphism ── */
+  .glass {
+    background: hsl(var(--glass-bg));
+    backdrop-filter: blur(24px) saturate(1.8);
+    -webkit-backdrop-filter: blur(24px) saturate(1.8);
+    border: 1px solid hsl(var(--glass-border));
+  }
+
+  /* ── Glow utilities ── */
+  .glow-primary {
+    box-shadow: 0 0 24px 4px hsl(var(--glow-primary));
+  }
+  .glow-secondary {
+    box-shadow: 0 0 24px 4px hsl(var(--glow-secondary));
+  }
+  .glow-accent {
+    box-shadow: 0 0 24px 4px hsl(var(--glow-accent));
+  }
+
+  /* ── Lift & glow hover ── */
+  .lift-glow {
+    @apply transition-all duration-300 ease-out;
+  }
+  .lift-glow:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px -8px hsl(var(--glow-primary));
+  }
+
+  /* ── Text gradient ── */
+  .text-gradient-primary {
+    background: linear-gradient(135deg, hsl(122 46% 33%), hsl(199 97% 41%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* ── Premium card with subtle border glow ── */
+  .card-premium {
+    @apply relative rounded-2xl border border-border bg-card overflow-hidden transition-all duration-300;
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.04), 0 1px 2px -1px rgb(0 0 0 / 0.04);
+  }
+  .card-premium:hover {
+    box-shadow: 0 8px 32px -8px hsl(var(--glow-primary)), 0 2px 8px 0 rgb(0 0 0 / 0.06);
+    border-color: hsl(var(--primary) / 0.3);
+    transform: translateY(-2px);
+  }
+
+  /* ── Glitter / shimmer reflection on buttons ── */
+  .btn-glitter {
+    @apply relative overflow-hidden;
+  }
+  .btn-glitter::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 30%,
+      rgba(255, 255, 255, 0.35) 50%,
+      transparent 70%,
+      transparent 100%
+    );
+    transition: left 0.6s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .btn-glitter:hover::before {
+    left: 120%;
+  }
+
+  /* ── Soft float animation ── */
+  .float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  /* ── Shine border ── */
+  .shine-border {
+    @apply relative;
+  }
+  .shine-border::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(135deg, hsl(var(--primary) / 0.2), transparent 40%, transparent 60%, hsl(var(--secondary) / 0.2));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  /* ── Active nav indicator dot ── */
+  .nav-indicator {
+    @apply relative;
+  }
+  .nav-indicator::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: hsl(var(--primary));
+    box-shadow: 0 0 8px 2px hsl(var(--glow-primary));
+  }
+
+  /* ── Circular progress ring ── */
+  .progress-ring-bg {
+    stroke: hsl(var(--muted));
+  }
+  .progress-ring-fill {
+    stroke: hsl(var(--primary));
+    transition: stroke-dashoffset 1s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}

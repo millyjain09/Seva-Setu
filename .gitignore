@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build and production outputs
+dist/
+dist-ssr/
+build/
+.output/
+
+# Local env files & secrets
+.env
+.env.local
+.env.*.local
+*.env
+supabase/.env
+
+# Bun locks and local runtimes
+.bun/
+# Uncomment the line below if you want to exclude lock files completely, 
+# though keeping bun.lockb in version control is generally recommended for teams.
+# bun.lockb
+
+# Supabase local development
+.supabase/
+supabase/.temp/
+supabase/functions/.env
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# System Files
+.DS_Store
+Thumbs.db
