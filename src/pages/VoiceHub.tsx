@@ -75,7 +75,7 @@ const SpeechRecognition = (window as any).SpeechRecognition || (window as any).w
 const VoiceHub = () => {
   const { t } = useTranslation();
   const [isListening, setIsListening] = useState(false);
-  const [lang, setLang] = useState('hi-IN');
+  const [lang, setLang] = useState('en-IN');
   const [messages, setMessages] = useState<Msg[]>([]);
   const [isStreaming, setIsStreaming] = useState(false);
   const [transcript, setTranscript] = useState('');
