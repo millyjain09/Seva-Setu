@@ -27,6 +27,7 @@ const Profile = () => {
   const [district, setDistrict] = useState('');
   const [stateName, setStateName] = useState('');
   const [avatarUrl, setAvatarUrl] = useState<string>('');
+  const [avatarDisplayUrl, setAvatarDisplayUrl] = useState<string>('');
   const [uploading, setUploading] = useState(false);
   const [uploadProgress, setUploadProgress] = useState(0);
   const fileRef = useRef<HTMLInputElement>(null);
@@ -77,6 +78,22 @@ const Profile = () => {
         setLoading(false);
       });
   }, [user]);
+
+  // Resolve a viewable URL for the stored avatar. Supports both legacy public
+  // URLs and storage paths (e.g. "<user_id>/avatar-123.webp") in a private bucket.
+  useEffect(() => {
+    let cancelled = false;
+    const resolve = async () => {
+      if (!avatarUrl) { setAvatarDisplayUrl(''); return; }
+      if (/^https?:\/\//i.test(avatarUrl)) { setAvatarDisplayUrl(avatarUrl); return; }
+      const { data, error } = await supabase.storage
+        .from('avatars')
+        .createSignedUrl(avatarUrl, 60 * 60);
+      if (!cancelled) setAvatarDisplayUrl(error ? '' : (data?.signedUrl || ''));
+    };
+    resolve();
+    return () => { cancelled = true; };
+  }, [avatarUrl]);
 
   const handleSave = async () => {
     if (!user) return;
@@ -158,16 +175,15 @@ const Profile = () => {
       sonnerToast.error('Upload failed', { description: upErr.message });
       return;
     }
-    const { data: pub } = supabase.storage.from('avatars').getPublicUrl(path);
-    const publicUrl = pub.publicUrl;
-    const { error: dbErr } = await supabase.from('profiles').update({ avatar_url: publicUrl }).eq('id', user.id);
+    // Store the storage path (bucket is private); we sign it on read.
+    const { error: dbErr } = await supabase.from('profiles').update({ avatar_url: path }).eq('id', user.id);
     setUploading(false);
     setUploadProgress(0);
     if (dbErr) {
       sonnerToast.error('Could not save', { description: dbErr.message });
       return;
     }
-    setAvatarUrl(publicUrl);
+    setAvatarUrl(path);
     setCropOpen(false);
     setPendingFile(null);
     sonnerToast.success('Photo updated', { description: 'Your profile picture has been saved.' });
@@ -270,8 +286,8 @@ const Profile = () => {
             <div className="flex items-center gap-4 sm:gap-5">
               <div className="relative shrink-0">
                 <div className="h-20 w-20 sm:h-24 sm:w-24 rounded-2xl bg-gradient-to-br from-primary to-secondary flex items-center justify-center shadow-lg shadow-primary/20 overflow-hidden ring-2 ring-background">
-                  {avatarUrl ? (
-                    <img src={avatarUrl} alt="Profile" className="h-full w-full object-cover" />
+                  {avatarDisplayUrl ? (
+                    <img src={avatarDisplayUrl} alt="Profile" className="h-full w-full object-cover" />
                   ) : (
                     <span className="text-2xl sm:text-3xl font-bold text-primary-foreground">{initials}</span>
                   )}

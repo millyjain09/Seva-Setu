@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://seva-setu-health-connect.lovable.app/sitemap.xml
+Sitemap: https://the-seva-setu.vercel.app/sitemap.xml
