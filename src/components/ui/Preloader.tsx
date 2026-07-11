@@ -67,14 +67,14 @@ export const Preloader = ({ onComplete }: { onComplete: () => void }) => {
               </motion.div>
             ))}
 
-            {/* Logo */}
+            {/* Custom Logo Integration */}
             <motion.div
               initial={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.6, ease: [0.25, 0.46, 0.45, 0.94] }}
               className="relative z-10 flex flex-col items-center"
             >
-              {/* Pulsing ring behind logo */}
+              {/* Pulsing rings behind logo */}
               <motion.div
                 animate={{ scale: [1, 1.3, 1], opacity: [0.3, 0, 0.3] }}
                 transition={{ duration: 2, repeat: Infinity, ease: 'easeInOut' }}
@@ -86,18 +86,24 @@ export const Preloader = ({ onComplete }: { onComplete: () => void }) => {
                 className="absolute w-28 h-28 rounded-full border border-primary/20"
               />
 
-              {/* Logo circle */}
+              {/* Spinning Ring */}
               <motion.div
                 animate={{ rotate: 360 }}
                 transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
                 className="w-24 h-24 rounded-full bg-gradient-to-br from-primary via-primary/80 to-secondary flex items-center justify-center shadow-2xl"
                 style={{ boxShadow: '0 0 40px hsl(var(--primary) / 0.3)' }}
               >
+                {/* Counter-Rotating Logo Wrapper with a Solid White Background */}
                 <motion.div
                   animate={{ rotate: -360 }}
                   transition={{ duration: 8, repeat: Infinity, ease: 'linear' }}
+                  className="flex items-center justify-center w-16 h-16 bg-white rounded-full p-2 shadow-inner"
                 >
-                  <Heart className="h-10 w-10 text-primary-foreground drop-shadow-lg" fill="currentColor" />
+                  <img 
+                    src="/favicon.ico" 
+                    alt="SevaSetu Logo" 
+                    className="h-12 w-12 object-contain" 
+                  />
                 </motion.div>
               </motion.div>
 
