@@ -27,6 +27,26 @@ In rural India, millions face significant barriers to accessing quality healthca
 
 ---
 
+## 📸 UI Showcase
+
+### 📱 Mobile View
+| 🏠 Dashboard Layout | 🗣️ AI Voice Clinic | 🏛️ Govt Schemes |
+| :---: | :---: | :---: |
+| <img src="/mobile-view0.png" alt="Mobile Dashboard" width="250" style="border-radius: 10px;"/> | <img src="/mobile-view4.png" alt="Mobile Govt Schemes" width="250" style="border-radius: 10px;"/> | <img src="/README.md" alt="Mobile Health Vault" width="250" style="border-radius: 10px;"/> |
+
+### 💻 Desktop View
+| 🏠 Dashboard Layout | 🗣️ AI Voice Clinic | 📄 Medical Report Vault |
+| :---: | :---: | :---: |
+| <img src="/Screenshot 2026-07-11 042418.png" alt="Desktop Dashboard" width="400" style="border-radius: 10px;"/> | <img src="/Screenshot 2026-07-11 042418.png" alt="Desktop AI Clinic" width="400" style="border-radius: 10px;"/> | <img src="/Screenshot 2026-07-11 042418.png" alt="Desktop Health Vault" width="400" style="border-radius: 10px;"/> |
+
+### 💻 AI-Generated Health Report (Desktop/Export View)
+*SevaSetu automatically generates clean, printable medical summaries from uploaded lab reports.*
+<div align="center">
+  <img src="/Screenshot 2026-07-11 042541.png" alt="Desktop Health Report" width="800" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); margin-top: 10px;"/>
+</div>
+
+---
+
 ## ✨ Core Features
 
 ### 🎙️ Multilingual AI Clinic
@@ -47,12 +67,12 @@ Designed for areas with unstable internet connections. SevaSetu caches vital res
 
 | Category | Technologies |
 | :--- | :--- |
-| **Frontend** | React, TypeScript, Vite |
-| **Styling & UI** | Tailwind CSS, Framer Motion, shadcn/ui |
-| **Backend** | Supabase (PostgreSQL, Edge Functions) |
-| **Authentication** | Supabase Auth |
-| **Storage** | Supabase Storage (for Medical Reports) |
-| **Deployment** | Vercel |
+| **🎨 Frontend** | React, TypeScript, Vite |
+| **💅 Styling & UI** | Tailwind CSS, Framer Motion, shadcn/ui |
+| **⚙️ Backend** | Supabase (PostgreSQL, Edge Functions) |
+| **🔒 Authentication**| Supabase Auth |
+| **🗄️ Storage** | Supabase Storage (for Medical Reports) |
+| **🚀 Deployment** | Vercel |
 
 ---
 
