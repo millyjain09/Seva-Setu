@@ -1,15 +1,67 @@
-# SevaSetu: AI-Powered Rural Health Navigator
+readme_content = """<div align="center">
+  
+  # 🌿 SevaSetu
+  **Your Personal AI-Powered Rural Health Navigator**
 
-**SevaSetu** is a full-stack, mobile-first Progressive Web App (PWA) engineered to bridge the healthcare accessibility gap in rural India. By integrating real-time AI, multilingual voice assistance, and a smart government scheme matching engine, SevaSetu empowers underserved communities to take control of their health data and access vital medical resources.
+  [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen.svg?style=for-the-badge)](https://the-seva-setu.vercel.app/)
+  [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](#)
+  [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](#)
+  [![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)](#)
 
-## 🚀 Live Demo
-Access the live application here: [https://the-seva-setu.vercel.app/]
+</div>
 
-## 🛠 Project Architecture
-This project utilizes a modern, robust tech stack designed for performance, security, and scalability.
+<br />
+
+<div align="center">
+  <img src="./image_977adb.png" alt="SevaSetu Dashboard UI" width="350" style="border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);" />
+  <p><em>A mobile-first, glassmorphic UI designed specifically for accessibility and ease of use.</em></p>
+</div>
+
+<br />
+
+## 📖 About The Project
+
+In rural India, millions face significant barriers to accessing quality healthcare information due to low literacy rates, language barriers, and the sheer complexity of medical jargon. Furthermore, many citizens remain unaware of government health schemes designed specifically for their demographics.
+
+**SevaSetu** bridges this gap. Built as a highly optimized **Progressive Web App (PWA)**, it serves as an all-in-one digital health companion. It leverages cutting-edge AI to process complex medical documents, provides multilingual voice assistance, and actively matches users with life-saving public health benefits—all through an interface that feels like a native mobile app without requiring an app store download.
+
+---
+
+## ✨ Core Features
+
+### 🎙️ Multilingual AI Clinic
+To combat literacy barriers, SevaSetu integrates real-time **Speech-to-Text (STT)** and **Text-to-Speech (TTS)**. Users can navigate the app, ask medical queries, and receive guidance using their voice in local languages (Hindi, Punjabi, English).
+
+### 📄 Intelligent Health Vault
+Medical reports are notoriously hard to read. Users can upload their lab results (PDF/JPG), and SevaSetu's AI-driven document analysis will parse the data. It returns a simplified, color-coded health summary, translating complex biomarkers into plain, actionable language.
+
+### 🏛️ Smart Government Scheme Matcher
+A multi-step filtering engine that assesses user demographics (age, income, location, medical history) to instantly match citizens with relevant, eligible government health programs, ensuring they get the financial and medical support they deserve.
+
+### ⚡ Offline-Ready PWA Architecture
+Designed for areas with unstable internet connections. SevaSetu caches vital resources locally, allowing users to load the application and view previously fetched data even when offline.
+
+---
+
+## 🛠️ Technology Stack
+
+| Category | Technologies |
+| :--- | :--- |
+| **Frontend** | React, TypeScript, Vite |
+| **Styling & UI** | Tailwind CSS, Framer Motion, shadcn/ui |
+| **Backend** | Supabase (PostgreSQL, Edge Functions) |
+| **Authentication** | Supabase Auth |
+| **Storage** | Supabase Storage (for Medical Reports) |
+| **Deployment** | Vercel |
+
+---
+
+## 🏗️ Project Layout
 
 ```text
-/src           → Core React components, hooks, and business logic
-/supabase      → Backend logic, database schemas, and edge functions
-/public        → Static assets and PWA manifest configuration
-/docs          → System architecture and technical documentation
+📦 SevaSetu
+ ┣ 📂 client (or src)     # Frontend React components, hooks, and context
+ ┣ 📂 supabase            # Backend configurations, database migrations, and edge functions
+ ┣ 📂 public              # Static assets and PWA manifest (manifest.json)
+ ┣ 📂 docs                # Architecture notes and technical documentation
+ ┗ 📜 vite.config.ts      # Vite configuration for the PWA
