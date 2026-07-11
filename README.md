@@ -32,12 +32,12 @@ In rural India, millions face significant barriers to accessing quality healthca
 ### 📱 Mobile View
 | 🏠 Dashboard Layout | 🏛️ Govt Schemes | 🚨 Emergency Quick Dial |
 | :---: | :---: | :---: |
-| <img src="./images/mobile-view0.png" alt="🏠 Mobile Dashboard" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view4.png" alt="🏛️ Mobile Govt Schemes" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view5.png" alt="🚨 Emergency Quick Dial" width="250" style="border-radius: 10px;"/> |
+| <img src="./images/mobile-view0.png" alt="🏠 Mobile Dashboard" width="300" style="border-radius: 10px;"/> | <img src="./images/mobile-view4.png" alt="🏛️ Mobile Govt Schemes" width="300" style="border-radius: 10px;"/> | <img src="./images/mobile-view5.png" alt="🚨 Emergency Quick Dial" width="300" style="border-radius: 10px;"/> |
 
 ### 🛠️ User & Account Flow
 | 🔔 Notifications | 👤 User Profile | 🔐 Login / Auth |
 | :---: | :---: | :---: |
-| <img src="./images//mobile-notification.png" alt="🔔 Notifications" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-profile.png" alt="👤 User Profile" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-signup.png" alt="🔐 Login Page" width="250" style="border-radius: 10px;"/> |
+| <img src="./images//mobile-notification.png" alt="🔔 Notifications" width="300" style="border-radius: 10px;"/> | <img src="./images/mobile-profile.png" alt="👤 User Profile" width="300" style="border-radius: 10px;"/> | <img src="./images/mobile-signup.png" alt="🔐 Login Page" width="300" style="border-radius: 10px;"/> |
 
 ### 💻 Desktop View
 | 🏠 Dashboard Layout | 🗣️ AI Voice Clinic |  📄 Medical Report Vault  |
