@@ -49,4 +49,7 @@ supabase/functions/.env
 .DS_Store
 Thumbs.db
 
-.lovable
+# Custom ignored directories
+.lovable/
+client/
+docs/
