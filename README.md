@@ -20,7 +20,7 @@
 <br />
 
 ## 📖 About The Project
-
+ 
 In rural India, millions face significant barriers to accessing quality healthcare information due to low literacy rates, language barriers, and the sheer complexity of medical jargon. Furthermore, many citizens remain unaware of government health schemes designed specifically for their demographics.
 
 **SevaSetu** bridges this gap. Built as a highly optimized **Progressive Web App (PWA)**, it serves as an all-in-one digital health companion. It leverages cutting-edge AI to process complex medical documents, provides multilingual voice assistance, and actively matches users with life-saving public health benefits—all through an interface that feels like a native mobile app without requiring an app store download.
@@ -32,17 +32,17 @@ In rural India, millions face significant barriers to accessing quality healthca
 ### 📱 Mobile View
 | 🏠 Dashboard Layout | 🏛️ Govt Schemes | 🚨 Emergency Quick Dial |
 | :---: | :---: | :---: |
-| <img src="/mobile-view0.png" alt="🏠 Mobile Dashboard" width="250" style="border-radius: 10px;"/> | <img src="/mobile-view4.png" alt="🏛️ Mobile Govt Schemes" width="250" style="border-radius: 10px;"/> | <img src="/mobile-view5.png" alt="🚨 Emergency Quick Dial" width="250" style="border-radius: 10px;"/> |
+| <img src="./images/mobile-view0.png" alt="🏠 Mobile Dashboard" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view4.png" alt="🏛️ Mobile Govt Schemes" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view5.png" alt="🚨 Emergency Quick Dial" width="250" style="border-radius: 10px;"/> |
 
 ### 💻 Desktop View
 | 🏠 Dashboard Layout | 🗣️ AI Voice Clinic |  📄 Medical Report Vault  |
 | :---: | :---: | :---: |
-| <img src="/Screenshot 2026-07-11 042418.png" alt="Desktop Dashboard" width="400" style="border-radius: 10px;"/> | <img src="/Screenshot 2026-07-11 042524.png" alt="Desktop AI Clinic" width="400" style="border-radius: 10px;"/> | <img src="/Screenshot 2026-07-11 042541.png" alt="Desktop Health Vault" width="400" style="border-radius: 10px;"/> |
+| <img src="./images/Screenshot 2026-07-11 042418.png" alt="Desktop Dashboard" width="400" style="border-radius: 10px;"/> | <img src="./images/Screenshot 2026-07-11 042524.png" alt="Desktop AI Clinic" width="400" style="border-radius: 10px;"/> | <img src="./images/Screenshot 2026-07-11 042541.png" alt="Desktop Health Vault" width="400" style="border-radius: 10px;"/> |
 
 ### 💻 AI-Generated Health Report (Desktop/Export View)
 *SevaSetu automatically generates clean, printable medical summaries from uploaded lab reports.*
 <div align="center">
-  <img src="/Screenshot 2026-07-11 042541.png" alt="Desktop Health Report" width="800" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); margin-top: 10px;"/>
+  <img src="./images/Screenshot 2026-07-11 043001.png" alt="Desktop Health Report" width="800" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); margin-top: 10px;"/>
 </div>
 
 ---
