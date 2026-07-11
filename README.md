@@ -13,7 +13,7 @@
 <br />
 
 <div align="center">
-  <img src="/Screenshot 2026-07-11 042418.png" alt="SevaSetu Dashboard UI" width="350" style="border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);" />
+  <img src="./images/seva-setu-logo.png" alt="SevaSetu Logo" width="350" style="border-radius: 15px; box-shadow: 0px 4px 10px rgba(0,0,0,0.1);" />
   <p><em>A mobile-first, glassmorphic UI designed specifically for accessibility and ease of use.</em></p>
 </div>
 
