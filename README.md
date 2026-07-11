@@ -37,18 +37,12 @@ In rural India, millions face significant barriers to accessing quality healthca
 ### 🛠️ User & Account Flow
 | 🔔 Notifications | 👤 User Profile | 🔐 Login / Auth |
 | :---: | :---: | :---: |
-| <img src="./images/mobile-view0.png" alt="🔔 Notifications" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view0.png" alt="👤 User Profile" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-view2.png" alt="🔐 Login Page" width="250" style="border-radius: 10px;"/> |
+| <img src="./images//mobile-notification.png" alt="🔔 Notifications" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-profile.png" alt="👤 User Profile" width="250" style="border-radius: 10px;"/> | <img src="./images/mobile-signup.png" alt="🔐 Login Page" width="250" style="border-radius: 10px;"/> |
 
 ### 💻 Desktop View
 | 🏠 Dashboard Layout | 🗣️ AI Voice Clinic |  📄 Medical Report Vault  |
 | :---: | :---: | :---: |
 | <img src="./images/Screenshot 2026-07-11 042418.png" alt="Desktop Dashboard" width="400" style="border-radius: 10px;"/> | <img src="./images/Screenshot 2026-07-11 042524.png" alt="Desktop AI Clinic" width="400" style="border-radius: 10px;"/> | <img src="./images/Screenshot 2026-07-11 042541.png" alt="Desktop Health Vault" width="400" style="border-radius: 10px;"/> |
-
-### 💻 AI-Generated Health Report (Desktop/Export View)
-*SevaSetu automatically generates clean, printable medical summaries from uploaded lab reports.*
-<div align="center">
-  <img src="./images/Screenshot 2026-07-11 043001.png" alt="Desktop Health Report" width="800" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); margin-top: 10px;"/>
-</div>
 
 ---
 
@@ -59,6 +53,9 @@ To combat literacy barriers, SevaSetu integrates real-time **Speech-to-Text (STT
 
 ### 📄 Intelligent Health Vault
 Medical reports are notoriously hard to read. Users can upload their lab results (PDF/JPG), and SevaSetu's AI-driven document analysis will parse the data. It returns a simplified, color-coded health summary, translating complex biomarkers into plain, actionable language.
+
+### 💻 AI-Generated Health Report (Desktop/Export View)
+SevaSetu automatically generates clean, printable medical summaries from uploaded lab reports.
 
 ### 🏛️ Smart Government Scheme Matcher
 A multi-step filtering engine that assesses user demographics (age, income, location, medical history) to instantly match citizens with relevant, eligible government health programs, ensuring they get the financial and medical support they deserve.
