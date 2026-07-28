@@ -78,7 +78,7 @@ Designed for areas with unstable internet connections. SevaSetu caches vital res
 
 ---
 
-## 🏗️ Project Layout
+## 🏗️ Project Layout - Structure
 
 ```text
 📦 SevaSetu
