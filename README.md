@@ -27,7 +27,7 @@ In rural India, millions face significant barriers to accessing quality healthca
 
 ---
 
-## 📸 UI Showcase
+## 📸 UI Showcase # for both [Mobile and Desktop View]
 
 ### 📱 Mobile View
 | 🏠 Dashboard Layout | 🏛️ Govt Schemes | 🚨 Emergency Quick Dial |
